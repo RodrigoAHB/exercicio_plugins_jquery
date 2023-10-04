@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Formulário de Cadastro</h1>
+        </header>
+        <main>
+            <form>
+                <div class="formField">
+                    <label for="name">Nome completo:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="formField">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="formField">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div class="formField">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div class="formField">
+                    <label for="address">Endereço completo:</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="formField">
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <div class="formField">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>
+                2023 &copy; - Rodrigo Hofer - Todos os direitos reservados
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
